@@ -1,0 +1,8 @@
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+span {
+  font-family: "Protest Revolution", sans-serif;
+}

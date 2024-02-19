@@ -1,0 +1,74 @@
+:root {
+  --primary-color: white;
+  --secondary-color: whitesmoke;
+}
+
+.navbar {
+  border-right: 1px solid gray;
+  align-items: center;
+  width: 20vw;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.buttons img {
+  height: auto;
+  width: 12%;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 25%;
+  height: auto;
+}
+
+footer {
+  position: relative;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+  background-color: var(--secondary-color);
+  border-radius: 15%;
+  width: 16vw;
+  height: 12vw;
+  font-size: 1.3rem;
+  margin-left: 1.6rem;
+}
+
+.avatar {
+  border-radius: 50%;
+  size: 50px;
+}
+
+.name {
+  font-size: 1.4rem;
+}
+
+.other {
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  color: gray;
+}
+
+.powiadomienie {
+  margin-left: 5rem;
+  background-color: orange;
+  border-radius: 50%;
+  width: 1.3rem;
+  margin-bottom: 1rem;
+}
