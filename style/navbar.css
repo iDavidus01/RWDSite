@@ -7,6 +7,9 @@
   border-right: 1px solid gray;
   align-items: center;
   width: 20vw;
+  position: sticky;
+  height: 100vh;
+  top: 0;
 }
 
 .buttons {

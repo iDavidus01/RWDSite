@@ -3,6 +3,81 @@ body {
   flex-direction: row;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
 span {
   font-family: "Protest Revolution", sans-serif;
+}
+
+.topmain {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
+  margin-left: 1.5rem;
+}
+
+.topmain img {
+  height: auto;
+  width: 4%;
+}
+
+.topmain span {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  margin-left: 0.6rem;
+}
+
+.input {
+  display: flex;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 1em;
+  background-color: #ccc;
+  box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: 300ms ease-in-out;
+  position: absolute;
+  right: 0;
+  height: 2.4rem;
+  width: 10rem;
+}
+
+.input:focus {
+  background-color: white;
+  transform: scale(1.05);
+  box-shadow: 13px 13px 100px #969696, -13px -13px 100px #ffffff;
+}
+
+.titlemain {
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.topBurgers {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.bottomBurgers {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.burgers {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-left: 2rem;
 }
