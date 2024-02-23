@@ -101,3 +101,52 @@ span {
 .burger img {
   border-radius: 20%;
 }
+
+@media only screen and (max-width: 1300px) and (min-width: 1024px) {
+  .trzy {
+    margin-left: 0.5rem;
+  }
+  .burgers {
+    margin-left: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .trzy {
+    display: none;
+  }
+  .profile {
+    font-size: 0.6rem;
+    margin-left: 0.5rem;
+  }
+  .profile button {
+    display: none;
+  }
+  footer {
+    margin-left: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .burgers {
+    margin-left: 0.1rem;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .topBurgers {
+    flex-direction: column;
+  }
+  .bottomBurgers {
+    flex-direction: column;
+  }
+  .burgers {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 798px) {
+  .navbar {
+    display: none;
+  }
+}
